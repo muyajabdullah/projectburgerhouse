@@ -1,0 +1,151 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+						/*common start*/
+:root{
+	--brn:#3d2514;
+	--blk:#000000;
+	--wht:#FFFFFF;
+	--ylo:#ffc85c;
+	--red:#bf2222;
+	--orn:#FD511A;
+	--bebas:"Bebas Neue", sans-serif;
+	--alfa:"Alfa Slab One", serif;
+	--mont:"Montserrat", sans-serif;
+}	
+
+body{
+	font-family: var(--bebas);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--brn);	
+}
+						/*common end*/
+
+						/*header start*/
+header{
+	background-color: var(--ylo);
+	padding: 13px 0 ;
+}
+.a_nav{}
+.logo{}
+.logo img{}
+
+.menu ul li a{
+	font-size: 25px;
+	font-weight: 400;
+	padding: 0 50px !important;
+	color: #3d2514 !important;
+}
+.menu ul li a:last-child{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: var(--wht) !important;
+}
+
+
+					/*header end*/
+					/*hero start*/
+.hero{
+	background-color: var(--ylo);
+	padding: 44px 0 65px;
+}
+.h_text{
+	color: var(--brn);
+}
+.h_p{
+	font-size: 23px;
+	font-weight: 400;
+}
+
+.h_h1{
+	margin: 25px 0 0 0;
+	font-family: var(--alfa);
+	font-size: 113px;
+	font-weight: 400;
+	line-height: 115px;
+}
+h2{
+	font-family: var(--alfa);
+	font-size: 65px;
+}
+
+
+.h_img1{
+	width: 90%;
+}
+.h_img1 img{}
+.h_img2{}
+.h_img2 img{}
+
+					/*hero end*/
+					/*banner start*/
+.banner{
+	background-color: var(--wht);
+	margin: 70px 0;
+}
+.b_img1{
+	margin-right: 20px;
+}
+
+.b_img2{
+	margin-bottom: 25px;
+}
+
+					/*banner end*/
+					/*feature start*/
+.feature{
+	margin-bottom: 150px;
+}
+.f_text{
+	text-transform: uppercase;
+	margin-bottom: 70px;
+}
+.f_p1 {
+    font-size: 25px;
+    padding: 12px 0 7px;
+    margin: 0 365px;
+    background-color: var(--ylo);
+}
+.f_h1{
+	font-size: 50px;
+	font-family: var(--alfa);
+	margin: 35px 0 17px;
+}
+.f_p2{
+	font-family: var(--mont);
+}
+.f_img{
+	margin: 0 auto;
+	width: 75%;
+}
+.f_img img{}
+.f_text2{
+	text-transform: uppercase;
+}
+.f_text2 h2{
+	font-size: 35px;
+	margin: 70px 0 0px;
+}
+.f_text2 p{
+	margin: 30px;
+	font-family: var(--mont);
+}
+.f_submit{
+	font-family: var(--alfa);
+	font-size: 17px;
+	font-weight: 400;
+	color: var(--wht);
+	background-color: var(--red);
+	padding: 12px 30px;
+	text-transform: uppercase;
+}
+.f_submit:hover{
+	background-color: var(--orn);
+	color: var(--wht);
+}
+
+					/*feature end*/
+

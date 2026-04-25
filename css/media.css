@@ -1,0 +1,161 @@
+/*extra-Small devices (portrait phones, less than 576p*/
+@media (max-width: 575.98px) {
+/*header	*/
+.logo{
+    width: 70%;
+}
+/*hero start*/
+.h_p {
+    font-size: 17px;
+}
+.h_h1 {
+    font-size: 60px;
+    line-height: 80px;
+    margin: 14px 0 0 0;
+ }
+h2 {
+    font-size: 38px;
+}
+.h_img1 {
+    width: 75%;
+}
+            /*banner*/
+.b_img1
+ {
+    margin: 0px 0px 25px;
+}
+            /*feature*/
+.f_h1{
+    font-size: 29px;
+}
+.f_p1 {
+    margin: 0 50px;
+}
+.f_img{
+    width: 70%;
+}
+.f_text2 h2
+ {
+    font-size: 30px;
+    margin: 20px 0 0;
+}
+.f_text2 p {
+    margin: 15px;
+}
+.f_submit {
+    padding: 10px 17px;
+    margin-bottom: 50px;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*hero start*/
+.h_p {
+    font-size: 22px;
+}
+.h_h1 {
+    font-size: 72px;
+    line-height: 85px;
+   	margin: 14px 0 0 0;
+ }
+h2 {
+    font-size: 42px;
+}
+.h_img1 {
+    width: 60%;
+}
+			/*banner*/
+.b_img1
+ {
+    margin: 0px 0px 25px;
+}
+			/*feature*/
+.f_p1 {
+	margin: 0 165px;
+}
+.f_img{
+    width: 50%;
+}
+.f_text2 h2
+ {
+    margin: 20px 0 0;
+}
+.f_text2 p {
+    margin: 15px;
+}
+.f_submit {
+    margin-bottom: 50px;
+}	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*hero start*/
+.h_p {
+    font-size: 22px;
+}
+.h_h1 {
+    font-size: 80px;
+    line-heigh
+    t: 90px;
+   	margin: 17px 0 0 0;
+ }
+h2 {
+    font-size: 45px;
+}
+.h_img1 {
+    width: 60%;
+}
+			/*banner*/
+.b_img1
+ {
+    margin: 0px 0px 25px;
+}
+			/*feature*/
+.f_p1 {
+	margin: 0 250px;
+}
+.f_img{
+    width: 50%;
+}
+.f_text2 h2
+ {
+    margin: 20px 0 0;
+}
+.f_text2 p {
+    margin: 15px;
+}
+.f_submit {
+    margin-bottom: 50px;
+}
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+			
+			/*hero*/
+.h_h1 {
+    font-size: 95px;
+    line-height: 100px;
+ }
+h2 {
+    font-size: 55px;
+}
+			/*banner*/
+.f_p1 {
+	margin: 0 250px;
+}
+
+/*extra-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*hero start*/
+
+}
+
+/*extra-extra-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}
